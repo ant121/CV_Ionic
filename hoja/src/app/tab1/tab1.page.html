@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Datos Personales
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <app-explore-container name="Datos Personales"></app-explore-container>
+  <center>
+    <img src="https://pbs.twimg.com/profile_images/443217731434086400/yACSjaqA_400x400.jpeg" alt="Imagen de perfil" height="250px">
+  </center>
+  <br/>
+  <div class="container">
+    <ion-list>
+      <ion-list-header>Datos</ion-list-header>
+      <ion-item>
+        <ion-label>Nombres:</ion-label>
+        <ion-badge slot="end">Anthony Bryan</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Apellidos:</ion-label>
+        <ion-badge slot="end">Tacuri Luna</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Fecha de Nacimiento:</ion-label>
+        <ion-badge color="tertiary" slot="end">14/11/1998</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Edad:</ion-label>
+        <ion-badge color="success" slot="end">21</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Nacionalidad:</ion-label>
+        <ion-badge color="warning" slot="end">Ecuatoriana</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Domicilio:</ion-label>
+        <ion-badge color="danger" slot="end">Quito</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>CI:</ion-label>
+        <ion-badge color="light" slot="end">1722569883</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Estado Civil:</ion-label>
+        <ion-badge color="medium" slot="end">Soltero</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Género:</ion-label>
+        <ion-badge color="dark" slot="end">Másculino</ion-badge>
+      </ion-item>
+    </ion-list>
+  </div>
+  <br/>
+</ion-content>
