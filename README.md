@@ -4,7 +4,7 @@ Se desarrollo una aplicación en Ionic con 4 tabs que son: Inicio, Datos Persona
 Contiene datos profesionales como lenguajes de programación manejados e idiomas.
 <img src="https://github.com/ant121/CV_Ionic/blob/master/Capturas/home.JPG?raw=true" height="300px"/>
 # Datos Personales
-Contiene la información básica 
+Contiene la información básica  
 <img src="https://github.com/ant121/CV_Ionic/blob/master/Capturas/datos.JPG?raw=true" height="300px"/>
 # Estuidos
 Contiene los estudios realizados, carreras cursadas y los planteles educativos.
